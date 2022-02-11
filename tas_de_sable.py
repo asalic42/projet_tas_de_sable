@@ -9,12 +9,16 @@
 
 
 #####LIBRAIRIES########
+import tkinter as tk
 
 #######################
 
 
 #####CONSTANTES########
-
+racine = tk.Tk()
+CANVAS_WIDTH = 500
+CANVAS_HEIGHT = 500
+canvas_principal = tk.Canvas(racine, background="black", width=CANVAS_WIDTH, height=CANVAS_HEIGHT)
 #######################
 
 
@@ -29,5 +33,5 @@
 
 
 ######PROGRAMME##########
-
+racine.mainloop()
 #########################
