@@ -10,7 +10,7 @@
 
 #####LIBRAIRIES########
 import tkinter as tk
-
+import random
 #######################
 
 
@@ -18,7 +18,11 @@ import tkinter as tk
 racine = tk.Tk()
 CANVAS_WIDTH = 500
 CANVAS_HEIGHT = 500
-canvas_principal = tk.Canvas(racine, background="black", width=CANVAS_WIDTH, height=CANVAS_HEIGHT)
+canvas_principal = tk.Canvas(racine, bg="black", width=CANVAS_WIDTH, height=CANVAS_HEIGHT)
+bouton = tk.Button(racine, text="Configuration Aléatoire" )
+
+canvas_principal.grid()
+bouton.grid()
 #######################
 
 
